@@ -1,5 +1,8 @@
-temp = int(input('Enter answer 4+5*10='))
-if temp == 54:
-    print('You right')
-else:
-    print('You wrong')
+import random
+
+i = 0
+a = input('enter word:')
+while i <= 5:
+    b = str(random.sample(a, len(a)))
+    print(b[2:-2:5])
+    i += 1
